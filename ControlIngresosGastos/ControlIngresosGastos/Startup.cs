@@ -53,7 +53,7 @@ namespace ControlIngresosGastos
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=IngresoGasto}/{action=Index}/{id?}");
             });
         }
     }
