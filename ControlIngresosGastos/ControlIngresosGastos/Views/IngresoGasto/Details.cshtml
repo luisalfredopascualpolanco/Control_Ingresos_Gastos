@@ -1,14 +1,13 @@
 ﻿@model ControlIngresosGastos.Models.IngresoGasto
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Detalles de Ingreso o Gasto";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Details</h1>
+<h1>Detalles de Ingreso o Gasto</h1>
 
-<div>
-    <h4>IngresoGasto</h4>
+<div>   
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -31,7 +30,8 @@
         </dd>
     </dl>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+
+ <div>
+    <a class="btn btn-secondary" asp-action="Index">Regresa a la lista</a>
 </div>
+
